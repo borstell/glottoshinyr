@@ -1,0 +1,2 @@
+# glottoshinyr
+Glottolog Language Map
