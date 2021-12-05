@@ -1,5 +1,6 @@
 # glottoshinyR and custom mapping in R
-Glottolog Language Map
+Pacific-centered Glottolog Language Maps
+<br><img src="./Glottomap_2021-12-05.png" alt="Glottomap" width="500"/>
 
 ## Shiny app: _GlottoshinyR_
 This repository stores the Shiny app [https://linguistr.shinyapps.io/glottoshinyR/](https://linguistr.shinyapps.io/glottoshinyR/), such that users who may find the online server host unavailable can still access the app by running it locally in RStudio, accessed from GitHub using the `runGithub()` function (see [https://shiny.rstudio.com/tutorial/written-tutorial/lesson7/](https://shiny.rstudio.com/tutorial/written-tutorial/lesson7/)). 
