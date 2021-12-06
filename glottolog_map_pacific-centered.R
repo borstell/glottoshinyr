@@ -103,7 +103,7 @@ ggplot() +
   # Uncomment line below if you are using a manually set single color (i.e. no feature)
   scale_fill_manual(values=pal) +
   
-  labs(caption="Data: glottolog.org; Libraries: {ggnewscale,mapproj,maps,randomcoloR,shiny,tidyverse}") +
+  labs(caption="Data: glottolog.org; Libraries: {ggnewscale,mapproj,maps,randomcoloR,tidyverse}") +
   theme_void(base_size=custom_fontsize, base_family = custom_fontfamily) + 
   theme(panel.border = element_rect(color = NA, fill=NA, size=.5), plot.margin = unit(c(5,5,5,5), "pt"),
         legend.position = "bottom",
