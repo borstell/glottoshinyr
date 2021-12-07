@@ -27,7 +27,7 @@ lakes <- map_data("lakes") %>%
   mutate(long = if_else(long<(cut_longitude),long+(360),long))
 
 
-# Read Glottolog and join data
+# Read Glottolog and join data (based partly on https://github.com/HedvigS/Glottolog_look_up_table)
 glottolog <- read_csv("https://raw.githubusercontent.com/glottolog/glottolog-cldf/master/cldf/values.csv", na = c("","<NA>")) %>% 
   rename(Glottocode = "Language_ID") %>% 
   select(2:4) %>% 
